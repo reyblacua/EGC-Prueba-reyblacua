@@ -160,3 +160,9 @@ except ImportError:
 
 
 INSTALLED_APPS = INSTALLED_APPS + MODULES
+
+BASEURL = 'https://prueba-examen-reyblacua.herokuapp.com'
+
+APIS = {}
+import django_heroku
+django_heroku.settings(locals())
