@@ -15,7 +15,6 @@ python:
 install:
   - pip install -r requirements.txt
   - pip install codacy-coverage
-if: branch=master
 script:
   - cd decide
   - cp travis_settings.py local_settings.py
